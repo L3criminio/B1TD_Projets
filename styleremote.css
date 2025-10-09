@@ -1,0 +1,19 @@
+body{
+
+    font-size:2rem;
+}
+
+table{
+    border-style: solid;
+    width: 250px;
+    text-align: center;
+    margin:auto;
+}
+th , td {
+    border-style: solid;
+
+}
+
+#ftt{
+    font-size: 1rem;
+}
