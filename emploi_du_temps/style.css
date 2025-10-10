@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+td:not(.void) {
+    width: 150px;
+    height: 30px;
+
+    vertical-align: middle;
+}
+
+.void {
+    height: 10px;
+}
+
+.month {
+    background-color: skyblue;
+}
+
+.day {
+    background-color: lightblue;
+    border: none;
+}
