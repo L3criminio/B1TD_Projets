@@ -1,0 +1,71 @@
+body {
+  margin: 100px;
+}
+
+table {
+  margin: auto;
+  border-spacing: 0px;
+}
+
+table td {
+  padding: 18px;
+  background-color: #ff0000;
+  border-top: #02359c 8px solid;
+}
+.row1 {
+  border-left: #02359c 18px solid;
+  border-right: #02359c 8px solid;
+  border-top: #02359c 8px solid;
+}
+
+.row2 {
+  border-right: #02359c 18px solid;
+  border-left: #02359c 8px solid;
+}
+
+.floor {
+  border-bottom: #ff0000;
+  border-top: #02359c 8px solid;
+}
+
+.line1 td {
+  border-top: #02359c 25px solid;
+}
+
+#k1 {
+  position: relative;
+  left: 11px;
+  background-color: #ff6600;
+  padding: 10px;
+}
+#j1 {
+  height: 4px;
+  position: relative;
+  right: 10px;
+  background-color: #ff6600;
+  padding: 10px;
+}
+
+#k2 {
+  height: 4px;
+  position: relative;
+  left: 28px;
+  background-color: #ff6600;
+  padding: 10px;
+}
+
+#j2 {
+  height: 4px;
+  position: relative;
+  right: 28px;
+  background-color: #ff6600;
+  padding: 10px;
+}
+
+#k3 {
+  height: 3px;
+  position: relative;
+  left: 47px;
+  background-color: #ff6600;
+  padding: 10px;
+}

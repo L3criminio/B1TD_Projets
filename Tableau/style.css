@@ -1,0 +1,33 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, serif;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 50px auto;
+  text-align: center;
+  background-color: white;
+  border: black solid 1px;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+th {
+  background-color: rgb(105,184,244);
+  font-weight: bold;
+}
+
+.jours th {
+  background-color: rgb(199,228,252);
+  border: rgb(199,228,252) solid 1px;
+  border-bottom: black solid 1px;
+  border-left: black 1px;
+  border-right: black 1px;
+  }
+
+table em {
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif ;
+}
