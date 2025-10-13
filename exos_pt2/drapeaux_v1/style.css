@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #fff;
+    background: rgb(255, 255, 255);
     width: 350px;
     height: 315px;
 }
@@ -12,7 +12,7 @@
     justify-content: space-between;
     width: 350px;
     height: 90px;
-    background: #fff;
+    background: rgb(255, 255, 255);
 }
 .d2 { justify-content: center; }
 
@@ -33,7 +33,7 @@
     height: 30px;
 }
 .drapeau1 .p2 {
-    background: #fff;
+    background: rgb(255, 255, 255);
     height: 15px;
 }
 
@@ -48,7 +48,7 @@
     box-shadow: 0 0 15px black;
 }
 .drapeau2 .p1, .drapeau2 .p2 {
-    background: #fff;
+    background: rgb(255, 255, 255);
     width: 18px;
 }
 .drapeau2 .p1 { height: 54px; }
@@ -72,7 +72,7 @@
 .drapeau3 .p1, .drapeau3 .p2 {
     display: flex;
     flex-direction: column;
-    background: #fff;
+    background: rgb(255, 255, 255);
     width: 65px;
     height: 35px;
 }
@@ -80,7 +80,7 @@
 
 .drapeau4 {
     justify-content: space-between;
-    background: #fff;
+    background: rgb(255, 255, 255);
 }
 .drapeau4 .p1 {
     background: rgb(255, 0, 0);
@@ -97,10 +97,10 @@
     background: rgb(128, 167, 207);
 }
 .drapeau5 .p1 {
-    background: #000;
+    background: rgb(0, 0, 0);
     height: 16px;
 }
 .drapeau5 .p2 {
-    background: #fff;
+    background: rgb(255, 255, 255);
     height: 4px;
 }
