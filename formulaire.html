@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="style_form.css">
+</head>
+<body>
+  <form>
+    <div class="bloc">
+     <fieldset class="section">
+      <legend>A quel(s) propos ?</legend>
+      <label for="propos">Objet de votre message :</label><br>
+      <select id="propos" name="propos">
+        <option value="developpement">Développement web</option>
+        </fieldset>
+      </select>
+    </div>
+
+    
+    <div class="bloc">
+      <fieldset class="section">
+      <legend>Vos coordonnées :</legend>
+      <label for="prenom">Votre prénom :</label><br>
+      <input type="text" id="prenom" name="prenom" placeholder="Ici votre prénom"><br>
+
+      <label for="nom">Votre nom :</label><br>
+      <input type="text" id="nom" name="nom" placeholder="Ici votre nom"><br>
+
+      <label for="email">Votre email :</label><br>
+      <input type="email" id="email" name="email" placeholder="Ici votre email"><br>
+
+      <label for="message">Laissez votre message :</label><br>
+      <textarea id="message" name="message" rows="4" placeholder="Ici votre message..."></textarea><br>
+      </fieldset>
+
+      <div class="boutons">
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Effacer">
+      </div>
+    </div>
+  </form>
+</body>
+</html>

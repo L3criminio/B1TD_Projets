@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.flag {
+  width: 250px;
+  height: 160px;
+  border: 2px solid black;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.germany {
+  background: linear-gradient(
+    to bottom,
+    #000000 0% 33.33%,
+    #dd0000 33.33% 66.66%,
+    #ffce00 66.66% 100%
+  );
+}
+
+
+.france {
+  background: linear-gradient(
+    to right,
+    #0055a4 0% 33.33%,
+    #ffffff 33.33% 66.66%,
+    #ef4135 66.66% 100%
+  );
+}
+
+.japan {
+  background: #ffffff;
+}
+.japan::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  background: #bc002d;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.latvia {
+  background: linear-gradient(
+    to bottom,
+    #9e3039 0% 40%,
+    #ffffff 40% 60%,
+    #9e3039 60% 100%
+  );
+}
+
+
+.monaco {
+  background: linear-gradient(
+    to bottom,
+    #ff0000 0% 50%,
+    #ffffff 50% 100%
+  );
+}
+
+
+.ukraine {
+  background: linear-gradient(
+    to bottom,
+    #3f7ede 0% 50%,
+    #ffde00 50% 100%
+  );
+}
+ 

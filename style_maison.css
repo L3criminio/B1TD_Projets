@@ -1,0 +1,123 @@
+body {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+
+.toit {
+    display: block;
+    height: 90px;
+    justify-content: start;
+}
+
+.toit1 {
+    margin: auto;
+    background-color: orange;
+    height: 30px;
+    width: 100px;
+}
+
+.toit2 {
+  margin: auto;
+    background-color: orange;
+    height: 30px;
+    width: 150px;
+}
+
+.toit3 {
+    background-color: orange;
+    height: 30px;
+    width: 200px;
+}
+
+
+.batiment {
+    display: flex;
+    height: 350px;
+    width: 220px;
+    background: blue;
+    justify-content: center;
+    flex-direction: column;
+}
+.etage1, .etage2, .etage3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.etage1 {
+    height: 100px;
+}
+
+.fenetre1 {
+    background-color: red;
+    width: 45px;
+    height: 50px;
+    margin-top: 30px;
+    ;
+}
+.fenetre2 {
+    background-color: red;
+    width: 45px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+
+.fenetre3 {
+    background-color: red;
+    width: 45px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.etage2 {
+    height: 100px;
+}
+.fenetre4 {
+    background-color: red;
+    width: 45px;
+    height: 50px;
+    margin-top: 30px;
+}
+.fenetre5 {
+    background-color: red;
+    width: 45px;
+    height: 50px;
+    margin-top: 30px;
+}
+.fenetre6 {
+    background-color: red;
+    width: 45px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.etage3 {
+    height: 150px;
+}
+
+.fenetre7 {
+    background-color: red;
+    width: 45px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+
+
+.porte {
+    background-color: red;
+    width: 50px;
+    height: 130px;
+    margin-top: 30px;
+}
+.fenetre8 {
+    background-color: red;
+    width: 45px;
+    height: 50px;
+    margin-top: 30px;
+}
