@@ -1,0 +1,41 @@
+
+
+h1{
+color: aqua;
+}
+body{
+background-color: blue;
+
+}
+th{
+
+padding: 20px;
+
+}  
+
+.pixel_bleu{
+
+background-color: blue;
+
+
+}
+.rouge{
+
+background-color: brown;
+
+
+}
+.beige{
+
+background-color: rgb(198, 174, 93);
+
+
+}
+.brow{
+
+background-color: rgb(173, 81, 5);
+}
+.gold{
+background-color: gold;
+
+}

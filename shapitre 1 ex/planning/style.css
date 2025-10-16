@@ -1,0 +1,32 @@
+table{
+    border-collapse: collapse;
+    width: 100 ;  
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+    
+}
+ td , tr {
+   
+    border:  solid #0a0808;
+    padding: 3px;
+    text-align : center;
+}
+     .jours{
+        
+          background-color:  #C5E5FF;
+          text-align: center;
+    }
+    th{
+        
+        padding: 5px;
+        text-align: center;
+    }
+    #jan{
+        background-color: #69B8F4  ;
+    }
+    em{ 
+        font-family : cursive;
+    }
+    
