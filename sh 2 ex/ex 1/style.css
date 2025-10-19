@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background: #e0e0e0;
+    width: 100%;
+    max-width: 980px;
+    position: relative;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.top-section {
+    background: #e0e0e0;
+    padding: 80px 40px 20px;
+    text-align: center;
+}
+
+.avatar {
+    position: absolute;
+
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 10px solid white;
+    margin: 0 auto 30px;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.avatar-placeholder {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.orange-section {
+    background: linear-gradient(to bottom, #ffa500, #ff6600);
+    padding: 40px;
+    text-align: center;
+    border-top: 3px solid #000;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Impact', 'Arial Black', sans-serif;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.social-links a {
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffa500;
+    font-size: 32px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
+
+.cta-button {
+    background-color: #000;
+    color: white;
+    padding: 18px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.cta-button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .subtitle {
+        font-size: 1.2em;
+    }
+
+    .social-links {
+        gap: 25px;
+    }
+
+    .social-links a {
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+    }
+
+    .orange-section {
+        padding: 30px 20px;
+    }
+
+    .top-section {
+        padding: 60px 20px 20px;
+    }
+}
